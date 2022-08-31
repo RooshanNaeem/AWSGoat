@@ -17,5 +17,5 @@ jobs:
         id: checkov
         uses: bridgecrewio/checkov-action@master
         with:
-          file: main.tf
+          directory: .
           framework: terraform 
